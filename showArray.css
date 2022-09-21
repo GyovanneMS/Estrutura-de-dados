@@ -1,0 +1,38 @@
+.number-container{
+    display: flex;
+    gap: 24px;
+    align-items: center;   
+    padding-top: 20px;
+}
+
+h2{
+    min-width: 150px;
+    text-align: end;
+    padding-left: 30px;
+}
+
+.numbers-item{
+    background-color: yellow;
+    width: 75px;
+    height: 75px;
+    color: black;
+    font-size: 2rem;
+    display: flex;
+    place-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+li{
+    width: 90%;
+    flex-wrap: wrap;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+body{
+    flex-wrap: wrap;
+    padding: 20px;
+}
